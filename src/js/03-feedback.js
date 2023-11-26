@@ -1,4 +1,4 @@
-const throttle = require('lodash.throttle');
+var throttle = require('lodash.throttle');
 const form = document.querySelector('.feedback-form');
 const { email, message } = form.elements;
 
